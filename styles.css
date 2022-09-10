@@ -1,0 +1,140 @@
+body{
+    text-align: center;
+
+   
+}
+/*------------------ NAvbar content--------------------------- */
+.first{
+    background-color: #F0F0F0;
+  
+}
+/* .container-fluid{
+    padding:22.2% 1% 22.5% 5.55% ;
+} */
+#logo{
+    /* logo 1 */
+
+position: relative;
+width: 300px;
+height: 40px;
+left: 4.55%;
+top: 22.22%;
+bottom: 22.5%;
+
+}
+
+.i1{
+   position: relative;
+color: #fff;
+top: 20%;
+
+/* width: 311px; */
+font-size: 15.4px;
+}
+
+#q4,#q1,#q2,#q3{
+    /* width:49px; */
+    /* position: relative; */
+    text-align: center;
+   width: 40px;
+   height:40px;
+    border-radius: 50px;
+    background-color: #3683F0;
+   
+}
+#q1:hover,#q2:hover,#q3:hover,#q4:hover{
+    background-color: #2569c9;
+  }
+.i2{
+    font-size: 22.4px;
+    color: #3683F0;
+    margin-top:13px;
+    /* width: 10px; */
+}
+.i2:hover{
+    color:#2569c9;
+}
+/* ------------------Body------------------- */
+#main-body{
+padding: 5% 10%;
+}
+.n1{
+    color: #fff;
+}
+.r-pad{
+    text-align: center;
+    margin:0 auto;
+    padding:3% 4%;
+}
+.c1{
+    padding: 0 0 0 0;
+margin:0 auto;
+}
+.t1{
+    text-align: justify;
+}
+/* .ta{
+    padding:0;
+} */
+.menu {
+    top: 20%;
+    /* bottom: 10%; */
+    border:solid #d4d4d4 1px;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: 100;
+    background: rgb(248, 248, 248);
+    width: 120px;
+    height: 100%;
+    padding-left: 50px;
+    position: fixed;
+    box-shadow: -3px 0px 5px 0px rgba(70, 70, 70, 0.2);
+    left: -130px;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    color: #000000;
+    z-index: 100;
+  }
+  .menu:hover, .menu:focus {
+    transform: translate3d(125px, 0, 0);
+    animation-timing-function: 1s ease-in;
+  }
+  .menu .title {
+    position: absolute;
+    /* background-color: #000000;
+    color: #fff; */
+    /* font-size: 30px; */
+    /* top: 50%; */
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    /* transform: rotate(90deg); */
+    top:16px;
+    right: 1px;
+    font-weight: 800;
+    /* font-size: 15px; */
+  }
+  .menu .navi {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-weight: 100;
+    padding-left: 15px;
+  }
+  .menu .navi li {
+    padding-bottom: 30px;
+    list-style-type: none;
+  }
+  .menu .navi li a {
+    font-weight: bold;
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+  }
+  .menu .navi li a:hover {
+    color: #fff;
+  }
